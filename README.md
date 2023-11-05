@@ -13,12 +13,12 @@
 
 ### Association
 
-- has_many :items
-- has_many :orders
+- has_many :ff14ss
+- has_many :tag
 
 
 
-## SS テーブル
+## ff14ss テーブル
 
 | Column               | Type       | Options                        |
 | -------------------- | ---------- | ------------------------------ |
@@ -33,15 +33,15 @@
 ### Association
 
 - belongs_to :user
-- has_one :order
+- has_one :tag
 
 
-## TAG テーブル
+## tag テーブル
 
 | Column             | Type       | Options                        |
 | ------------------ | ---------- | ------------------------------ |
 | user               | references | null: false, foreign_key: true |
-| item               | references | null: false, foreign_key: true |
+| ff14ss             | references | null: false, foreign_key: true |
 
 
 

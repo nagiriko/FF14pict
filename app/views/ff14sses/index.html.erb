@@ -1,0 +1,10 @@
+<div class="contents row">
+  <% @ff14sses.each do |ff14ss| %>
+    <div class="content_post" style="background-image: url(<%= ff14ss.image %>);">
+      <p><%= ff14ss.text %></p>
+      <span class="name">
+        <%= ff14ss.name %>
+      </span>
+    </div>
+  <% end %>
+</div>
