@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :ff14sses, only: :index
+  resources :screenshots, only: :index
 end

@@ -13,12 +13,12 @@
 
 ### Association
 
-- has_many :ff14ss
+- has_many :screenshot
 - has_many :tag
 
 
 
-## ff14ss テーブル
+## screenshot テーブル
 
 | Column               | Type       | Options                        |
 | -------------------- | ---------- | ------------------------------ |
